@@ -1,0 +1,143 @@
+.div-contact-resume {
+    background-color: gainsboro
+}
+
+.top-contact-div {
+    /* vertical-align: top; */
+    columns: 2;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bitemoji {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-button-list {
+    width: 40%;
+    /* padding-top: 25px; */
+    padding-top: 75px;
+    margin: 0;
+}
+.contact-button-item {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    }
+
+.contact-button-item i {
+    width: 400px;
+    cursor: pointer;
+}
+
+.contact-button{
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.contact-me {
+    top: 10px;
+    left: 325px;
+    position: absolute;
+    text-decoration: underline;
+}
+
+/*  */
+/*  */
+/* Resume */
+/*  */
+/*  */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+  }
+  .swiper-slide {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 80% !important;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+
+  /*  */
+  /*  */
+
+  form { margin:50px auto;}
+
+  .contact-form {
+      /* vertical-align: bottom; */
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
