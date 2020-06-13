@@ -4,16 +4,18 @@
 
   @import url(https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:ital,wght@1,300&display=swap);
 
+.back-button {
+  vertical-align: middle;
+}
+
 
 .back {
   position: absolute;
-  margin-top: 50%;
   left: 5px;
   transition: .3s ease;
   color: blue;
   z-index: 100;
   padding: 10px 0;
-
 }
 
 .back:hover {

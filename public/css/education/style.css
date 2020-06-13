@@ -7,6 +7,31 @@
     border: 10px solid #fff;
     background-color: #96DCF5;
   }
+
+  .education-div {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 2px black solid;
+    text-align: center;
+  }
+  .education-card-body {
+    width: 110% !important;
+    background-color: white;
+    margin-top: 600px;
+    margin-left: -10px;
+    z-index: 1000
+  }
+  .experience-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .experience-list-items {
+    list-style: none;
+  }
+  .education-card-body h2 {
+    font-size: 20px;
+  }
   .cloud-bg {
     position: absolute;
     top: 40%;
@@ -255,4 +280,11 @@
       transform: translateX(-200%);
     }
   }
+
+  .div-bottom {
+    border-bottom: 2px black solid;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+
   
