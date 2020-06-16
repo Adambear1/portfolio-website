@@ -56,6 +56,13 @@ html * {
   Main components 
   
   -------------------------------- */
+
+  .portfolio:before {
+    content: 'Portfolio: ';
+    color: rgb(206, 3, 206);
+
+  }
+
   #cd-main-content {
     position: relative;
     height: 100%;
@@ -432,11 +439,12 @@ html * {
     display: inline;
     margin-left: auto;
     margin-right: auto;
+   
     
   }
     ul.social-network li {
       display: inline;
-      margin: 0 10px;
+      margin: 10px 10px 10px 10px;
     }
   
   
@@ -623,4 +631,14 @@ html * {
       display: none;
   }
 
- 
+ @media (max-width:813px){
+  #cd-intro {
+    background: url(../../images/white-clouds-over-snow-covered-mountain-4007310.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  .footer{
+    margin-top: 0 !important;
+  }
+ }
