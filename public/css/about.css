@@ -986,8 +986,6 @@ transition: all 0.35s;
 }
 
 .footer {
-
-/* position: fixed; */
 left: 0;
 bottom: 0;
 width: 100%;
@@ -997,4 +995,22 @@ color: white;
 text-align: center;
 }
 
+.back {
+  color: black;
+  position: fixed;
+  padding: 5px;
+  background-color: rgba(0,0,0,.2);
+  border: none;
+  border-radius: 15px;
+  top: 10px;
+  right: 10px;
+}
 
+.back:hover{
+  color: rgba(0,0,0,.9);
+  opacity: 80%;
+}
+
+.back:active{
+  transform: scale(.9);
+}
