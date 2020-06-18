@@ -66,11 +66,20 @@
     .about-column-1 h1, .about-column-1 h2{
       font-size: 17px;
     }
+    .skill-list-item img {
+      width: 75px;
+      height: 75px
+    }
+    
   }
   @media (max-width: 739px){
     .about-column-1 h1, .about-column-1 h2{
       font-size: 16px;
     }
+    .skills-list {
+      width: 100%;
+      vertical-align: middle;
+    }    
   }
   @media (max-width: 690px){
     .about-column-1 {
@@ -115,11 +124,9 @@
         width: 150px;
         margin-top: 10px;
         margin-bottom: 10px;
-
-
     }
-
   }
+
 
   .about-return {
       position: absolute;
@@ -989,6 +996,5 @@ background-color: gainsboro;
 color: white;
 text-align: center;
 }
-
 
 
