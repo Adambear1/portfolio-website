@@ -59,8 +59,8 @@ html * {
 
   .portfolio:before {
     content: 'Portfolio: ';
-    color: #0400ff;
-    text-shadow: .5px .5px white;
+    color: white; 
+    text-shadow: .5px .5px #0400ff;;
 
   }
 
