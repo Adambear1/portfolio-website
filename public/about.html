@@ -12,6 +12,14 @@
         <link rel="stylesheet" href="./assets/swiper.min.css">
     </head>
     <body>
+        <!-- Facebook Plugin -->
+        <div id="fb-root"></div>
+        <class class="fb-customerchat"
+                    attribution=setup_tool
+                    page_id="109341394185856"
+                    theme_color="#ff5ca1">
+        </class>
+        <!--  -->
         <a href='/' class="back"><i class="fas fa-redo fa-2x"></i></a>
         <div class="about-body" id="about">
 
@@ -1296,5 +1304,22 @@
         <script
             src="https://kit.fontawesome.com/a9f3433135.js"
             crossorigin="anonymous"></script>
+            <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                  xfbml            : true,
+                  version          : 'v6.0'
+                });
+              };
+              (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+                
     </body>
 </html>
